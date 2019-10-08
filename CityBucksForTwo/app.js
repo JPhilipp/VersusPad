@@ -1019,7 +1019,7 @@ function App() {
     this.spritesCheckCollision = true;
     this.speedFactor = 4;
     this.useFixedInterval = true;
-    this.intervalMS = this.useFixedInterval ? 100 : 0; // 100...
+    this.intervalMS = this.useFixedInterval ? 100 : 0;
     this.useRandomDefaultSprites = false;
     this.clickEventName = this.isLocalTest ? 'onclick' : 'ontouchstart';
     this.gameRuns = true;
@@ -1039,7 +1039,7 @@ function App() {
     this.moneyDisplayElm = new Array();
 
     for (var i = 0; i < this.playersMax; i++) {
-        this.money[i] = 380000; // 380000
+        this.money[i] = 380000;
         this.moneyOld[i] = null;
         this.moneyDisplayElm[i] = null;
     }
@@ -1175,5 +1175,5 @@ function App() {
 
     this.baseBuildings = new Object();
     this.barWidthOld = null;
-    this.moneyPerPixel = 5000; // 5000
+    this.moneyPerPixel = 5000;
 }
