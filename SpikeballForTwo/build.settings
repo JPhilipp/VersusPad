@@ -1,0 +1,37 @@
+settings =  {
+    orientation = {
+        default = "portrait",
+        supported = {
+            "portrait",
+        },
+    },
+
+    content = {
+        fps = 30,
+        antialias = false,
+    },
+
+    iphone = {
+        plist = {
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            UIApplicationExitsOnSuspend = true,
+            CFBundleIdentifier = "spikeball.versuspad.com",
+
+            CFBundleIconFiles = {
+                "Icon-72.png",
+                "Icon-72@2x.png"
+            },
+
+        },
+    },
+
+    android = {
+        supportsScreens = {
+            smallScreens = false,
+            normalScreens = false,
+            largeScreens = true,
+        },
+    },
+
+}

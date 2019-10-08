@@ -1,0 +1,65 @@
+Enum = {
+    typeWarrior : 1,
+    typeWindowWarrior : 2,
+    typeAttack : 3,
+    typeTapIcon : 4,
+    typePlaceholder : 5,
+    typeEagle : 6,
+    typeEaglePack : 7,
+    typeRectangle : 8,
+    typeDamageWave : 9,
+    typeEffect : 10,
+    typeWarriorGhost : 11,
+
+    male : 31,
+    female : 32,
+
+    maleKnight : 61,
+    maleArcher : 62,
+    maleShieldbearer : 63,
+    maleDrummer : 64,
+    maleBerserker : 65,
+    maleWizard : 66,
+    maleUnibird : 67,
+
+    femaleKnight : 68,
+    femaleArcher : 69,
+    femaleShieldbearer : 70,
+    femaleFlagbearer : 71,
+    femaleBerserker : 72,
+    femaleWizard : 73,
+    femaleUnibird : 74,
+
+    maleSubtypeMin : 61,
+    maleSubtypeMax : 67,
+    femaleSubtypeMin : 68,
+    femaleSubtypeMax : 74,
+
+    knife : 91,
+    food : 92,
+    blood : 94,
+    heart : 95,
+
+    soundWinner : 121,
+
+    phaseStand : 185,
+    phaseWalk : 186,
+    phasePrepareAttack : 187,
+    phaseAttack : 188,
+    phaseShock : 189,
+    phaseDefend : 190,
+    phaseMotivate : 191,
+    phaseGhost : 192,
+    phaseFollowTarget : 193,
+    phaseFollowTargetThenAct : 194,
+    phaseMin : 185,
+    phaseMax : 194,
+
+    roleHitter : 211,
+    roleShooter : 212,
+    roleDefender : 214,
+    roleMotivator : 215,
+
+    ground : 241,
+    air : 242
+}

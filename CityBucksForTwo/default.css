@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-color: rgb(63,63,63);
+    background-image: url("image/background-middle.png");
+    background-position: 0 148px;
+    background-repeat: no-repeat;
+    color: #000;
+    font-family: tahoma, sans-serif;
+    overflow: hidden;
+    width: 768px;
+    min-width: 768px;
+    max-width: 768px;
+    height: 1024px;
+    min-height: 1024px;
+    max-height: 1024px;
+}
+
+body,
+div {
+    webkit-user-select: none;
+   -webkit-user-select: none;
+    -moz-user-select: none; 
+}
+
+.dragPrevention {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.backgroundTop,
+.backgroundBottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: repeat-x;
+    z-index: 5000;
+}
+
+.backgroundTop {
+    background-image: url("image/background-top.png");
+}
+
+.backgroundBottom {
+    top: 996px;
+    background-image: url("image/background-bottom.png");
+}
+
+#all {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: rgb(0,0,0);
+}
+
+#debug {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-family: courier, monospace;
+    z-index: 11000;
+    color: #fff;
+    background-color: #000;
+    padding: 2px;
+    font-weight: bold;
+    text-shadow: #000 1px -1px 1px;
+    min-width: 80px;
+    text-align: right;
+}
+
+.sprite,
+.spriteButton,
+.spriteButtonHighlight,
+.spriteButtonCross,
+.spriteButtonCrossAddOn {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    background-repeat: no-repeat;
+}
+
+.sprite {
+    z-index: 1050;
+}
+
+.spriteButton {
+    z-index: 1000;
+    width: 85px;
+    height: 52px;
+}
+
+.spriteButtonHighlight {
+    z-index: 1075;
+    width: 85px;
+    height: 52px;
+    background-image: url("image/sprite-button/highlight.png");
+    /* opacity: .6; */
+}
+
+.spriteButtonCross {
+    background-image: url("image/sprite-button/cross.png");
+    z-index: 1100;
+    opacity: .5;
+    width: 85px;
+    height: 52px;
+}
+
+.spriteButtonCrossAddOn {
+    background-image: url("image/sprite-button/cross-add-on.png");
+    z-index: 1100;
+    opacity: .3;
+    width: 51px;
+    height: 52px;
+}
+
+.pauseButton,
+.restartButton,
+.infoButton {
+    position: absolute;
+    right: 15px;
+    width: 44px;
+    height: 61px;
+    top: 478px;
+    background-repeat: no-repeat;
+    z-index: 3000;
+}
+
+.infoButton {
+    background-image: url("image/info-button.png");
+    right: 80px;
+}
+
+.restartButton {
+    background-image: url("image/restart-button.png");
+    right: 145px;
+}
+
+.moneyBar_upper,
+.moneyBar_lower {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 120px;
+    z-index: 500;
+    background-color: rgb(194,199,44);
+}
+
+.moneyBar_upper {
+    top: 26px;
+    right: 0;
+}
+
+.moneyBar_lower {
+    top: 877px;
+    left: 0;
+}
+
+#info {
+    position: absolute;
+    display: block;
+    left: 140px;
+    top: 135px;
+    width: 408px;
+    padding: 40px;
+    height: 670px;
+    z-index: 4000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: 2px solid #777;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+}
+
+#info img {
+    display: block;
+    margin-right: 10px;
+    float: left;
+    top: -8px;
+    width: 70px;
+    height: 37px;
+}
+
+#info strong {
+    font-size: 24px;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 768px;
+    height: 1024px;
+    background-color: #000;
+    opacity: .35;
+    z-index: 2980;
+}
+
+#moneyDisplay0,
+#moneyDisplay1 {
+    color: rgb(194,199,44);
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    width: 155px;
+    height: 23px;
+    z-index: 6000;
+    text-align: right;
+}
+
+#moneyDisplay0 {
+    top: 9px;
+    left: 7px;
+    -webkit-transform: rotate(180deg);
+}
+
+#moneyDisplay1 {
+    top: 992px;
+    right: 10px;
+}
+
+#winner0,
+#winner1 {
+    position: absolute;
+    left: 230px;
+    top: 360px;
+    width: 324px;
+    height: 291px;
+    z-index: 3500;
+    background-repeat: no-repeat;
+}
+
+#winner0 { background-image: url("image/winner-0.png"); }
+#winner1 { background-image: url("image/winner-1.png"); }
+
+.shop_x0_y1_c1 { background-image: url("image/sprite/shop_x0_y1_c1.png"); }
+.cafe_x0_y1_c1 { background-image: url("image/sprite/cafe_x0_y1_c1.png"); }

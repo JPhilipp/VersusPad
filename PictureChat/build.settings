@@ -1,0 +1,38 @@
+settings =  {
+    orientation = {
+        default = "landscapeRight",
+        supported = {
+            "landscapeLeft","landscapeRight",
+        },
+    },
+
+    content = {
+        fps = 30,
+        antialias = true,
+    },
+
+    iphone = {
+        plist = {
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            UIApplicationExitsOnSuspend = true,
+            CFBundleIdentifier = "picturechat.versuspad.com",
+
+            CFBundleIconFiles = {
+                "Icon-72.png",
+                "Icon-72@2x.png"
+            },
+
+        },
+
+    },
+
+    android = {
+        supportsScreens = {
+            smallScreens = false,
+            normalScreens = false,
+            largeScreens = true,
+        },
+    },
+
+}

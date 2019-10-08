@@ -1,0 +1,42 @@
+settings =  {
+    orientation = {
+        default = "portrait",
+        supported = {
+            "portraitUpsideDown"
+        },
+    },
+
+    content = {
+        fps = 30,
+        antialias = false,
+    },
+
+    iphone = {
+        plist = {
+
+            CFBundleIconFile = "Icon.png",
+            CFBundleIconFiles = {
+                    "Icon.png" , 
+                    "Icon@2x.png",
+                    "Icon-72.png"
+            },
+
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            CFBundleIdentifier = "com.versuspad.nervousfly",
+            UIApplicationExitsOnSuspend = false,
+
+            UIAppFonts = {
+                "CREABBB.TTF"
+            },
+
+            CFBundleLocalizations = {
+                "English",
+                "Chinese",
+                "German"
+            },
+        
+        },
+    },
+
+}

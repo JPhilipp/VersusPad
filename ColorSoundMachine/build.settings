@@ -1,0 +1,50 @@
+settings =  {
+
+    orientation = {
+        default = "portrait",
+        supported = {
+            "portraitUpsideDown"
+        },
+    },
+
+    content = {
+        fps = 30,
+        antialias = false,
+    },
+
+    iphone = {
+        plist = {
+
+            CFBundleIconFile = "Icon.png",
+            CFBundleIconFiles = {
+                    "Icon.png" , 
+                    "Icon@2x.png",
+                    "Icon-72.png",
+                    "Icon-72@2x.png"
+            },
+
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            CFBundleIdentifier = "com.versuspad.colorsoundmachine",
+            UIApplicationExitsOnSuspend = true,
+
+            UIAppFonts = {
+                "trebuc.ttf"
+            },
+
+        },
+    },
+
+    android = {
+        supportsScreens = {
+            smallScreens = false,
+            normalScreens = true,
+            largeScreens = true,
+        },
+
+        usesPermissions = {
+            "com.android.vending.BILLING",
+        },
+    },
+
+}

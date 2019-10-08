@@ -1,0 +1,44 @@
+settings =  {
+    orientation = {
+        default = "landscapeRight",
+        supported = {
+            "landscapeRight",
+            "landscapeLeft",
+        },
+    },
+
+    content = {
+        fps = 30,
+        antialias = false,
+    },
+
+    iphone = {
+        plist = {
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            UIApplicationExitsOnSuspend = true,
+            CFBundleIdentifier = "siege-towers.versuspad.com",
+
+            CFBundleIconFiles = {
+                "Icon-72.png",
+                "Icon-72@2x.png",
+                "Icon-76.png",
+                "Icon-76@2x.png"
+            },
+
+            UIAppFonts = {
+                "upcll.ttf"
+            },
+
+        },
+    },
+
+    android = {
+        supportsScreens = {
+            smallScreens = false,
+            normalScreens = false,
+            largeScreens = true,
+        },
+    },
+
+}
