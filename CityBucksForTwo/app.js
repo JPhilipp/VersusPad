@@ -135,7 +135,6 @@ App.prototype.createCastButtons = function() {
     var rowY = new Array(882, 941);
     var player1x = new Array(8, 99, 190, 282, 373, 466, 524, 615, 708);
 
-    // xxx
     var addOns = new Array(this.enumSpriteImproveService, this.enumSpriteImproveSecurity,
             this.enumSpriteTryFire, this.enumSpriteTryRob);
     for (var playerI = 0; playerI < this.playersMax; playerI++) {
@@ -787,7 +786,6 @@ App.prototype.playSounds = function() {
 }
 
 App.prototype.setBuildingProperties = function() {
-    // xxx
     var building = null;
     var requiredCost = null;
     var requiredOffersSum = null;
