@@ -98,3 +98,7 @@ Create the place of your dreams... with full dragging freedom if you want to pla
 <a href="https://www.youtube.com/watch?v=6rW94ry-7q4"><img src="Screenshots/Fobbles.png" width="500"/></a>
 
 In Free the Fobbles, your goal is to beat your opponent in having all the fuzzy Fobble balls fall down the platform structure. In each turn, you can delete just 1 platform and have the physics unfold the rolls & falls -- but be careful, as you may also free competing Fobbles, as they all occupy the same space!
+
+&nbsp;
+
+Also see <a href="http://versuspad.com">VersusPad.com</a>
