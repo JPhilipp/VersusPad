@@ -2,6 +2,7 @@
 
 This is a collection of the VersusPad iPad and Android tablet apps & games For Two (with some single-player games thrown in). The idea is that two people sit around the same tablet and play or communicate with each other. These apps were playtested mainly in bars and cafes in China, with thanks to everyone participating! Some of these apps were created using Corona (Lua), others use Phonegap (JavaScript).
 
+&nbsp;
 
 <a href="https://www.youtube.com/watch?v=QBRmL7YXCZ8"><img src="Screenshots/PictureChat.jpg" width="500"/></a>
 
